@@ -1,14 +1,22 @@
-//testcaseÏà¹Ø²Ù×÷
-//create testcaseÏà¹Ø²Ù×÷,²ÉÓÃxml´æ´¢
+ï»¿//testcaseç›¸å…³æ“ä½œ
+//create testcaseç›¸å…³æ“ä½œ,é‡‡ç”¨xmlå­˜å‚¨
 fs=require('fs')
 fsutil=require('./fsutil.js')
 fspath=require('path')
-//´´½¨²âÊÔÓÃÁĞ
+fstestcase=require('../model/testcasemodel.js')
+config=require('../config.js')
+//åˆ›å»ºæµ‹è¯•ç”¨åˆ—
 
 createtestcase=function(testcasepath){
 	var path=
 }
-//É¾³ı²âÊÔÓÃÀı
+//åˆ é™¤æµ‹è¯•ç”¨ä¾‹
 deletetestcase=function(testcasepath){
-	n
+	
+}
+
+//è¯»å–æµ‹è¯•ç”¨ä¾‹,ç›¸å¯¹è·¯å¾„
+readTestcase=function(testcasepath){
+	var path=config.workpath+fspath.sep+testcasepath
+	
 }
